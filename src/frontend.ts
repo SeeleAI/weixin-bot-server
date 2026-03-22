@@ -189,6 +189,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sa
       <input type="file" id="img-file" accept="image/*" hidden>
       <div class="inp-toolbar">
         <button class="ib" onclick="document.getElementById('img-file').click()" title="图片">📷</button>
+        <button class="ib" id="vbtn" title="按住说话">🎤</button>
       </div>
       <div class="inp-row">
         <input type="text" id="msg-in" placeholder="输入消息..." autocomplete="off">
