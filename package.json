@@ -1,0 +1,19 @@
+{
+  "name": "weixin-worker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250313.0",
+    "typescript": "^5.8.0",
+    "wrangler": "^4.0.0"
+  },
+  "dependencies": {
+    "silk-wasm": "^3.7.1"
+  }
+}
