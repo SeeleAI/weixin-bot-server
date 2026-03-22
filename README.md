@@ -1,12 +1,12 @@
 # weixin-bot-server
 
+基于 Cloudflare Workers 的微信 Bot，扫码即用，无需服务器。
+
+see @tencent-weixin/openclaw-weixin
+
 ## 在线试用
 
 https://weixin-worker.seeleai.workers.dev
-
-# 微信 Bot Demo
-
-基于 Cloudflare Workers 的微信 Bot（基于 @tencent-weixin/openclaw-weixin），扫码即用，无需服务器。
 
 ## 核心功能
 
